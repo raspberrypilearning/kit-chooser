@@ -1,7 +1,7 @@
 ## Make colour pickers
 
 --- task ---
-Create colour picker sprites. These could be squares, circles, or draw them freehand with the paintbrush tool. 
+Create colour picker sprites. These could be squares, circles, or you can draw them freehand with the paintbrush tool. 
 
 Right click to duplicate a sprite, and change the fill for each colour. Then name them after the colour.
 
@@ -10,7 +10,7 @@ Right click to duplicate a sprite, and change the fill for each colour. Then nam
 
 
 --- task ---
-In the code `when sprite clicked`{:class="block3events"} block and add a `broadcast`{:class="block3events"} message to each of the colour sprites.
+In the code `when sprite clicked`{:class="block3events"} block, add a `broadcast`{:class="block3events"} message to each of the colour sprites.
 
 Name the new message after the colour. 
 
