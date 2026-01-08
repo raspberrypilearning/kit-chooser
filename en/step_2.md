@@ -7,7 +7,7 @@ Delete the cat sprite and create a sports kit. You could choose a sprite or draw
 
 ![Sprite selection menu in Scratch with the “Choose a Sprite” button highlighted](images/choose.png)
 
-If you search for "shirt".
+You can search for "shirt".
 
 ![Sprite selection screen in Scratch showing a shirt and a search for "shirt"](images/shirt.png)
 --- /task ---
