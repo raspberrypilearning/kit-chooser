@@ -5,7 +5,7 @@ Create colour picker sprites. These could be squares, circles, or you can draw t
 
 Right click to duplicate a sprite, and change the fill for each colour. Then name them after the colour.
 
-![Making new sprites for colour pickers in skratch, round balls in different colours](images/colour-sprite.png){:width="500px"}
+![Making new sprites for colour pickers in scratch, round balls in different colours](images/colour-sprite.png){:width="500px"}
 --- /task ---
 
 
@@ -23,7 +23,7 @@ Name the new message after the colour.
 --- task ---
 Select the kit sprite. 
 
-![Making new sprites for colour pickers in skratch, round balls in different colours](images/kit-sprite.png){:width="300px"}
+![Making new sprites for colour pickers in scratch, round balls in different colours](images/kit-sprite.png){:width="300px"}
 --- /task ---
 
 --- task ---

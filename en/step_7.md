@@ -1,4 +1,4 @@
-## Challange
+## Challenge
 
 --- task ---
 What else is in the kit? Can you create more designs - what about socks, boots, hoodies, or more decoration?

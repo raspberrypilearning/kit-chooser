@@ -70,4 +70,4 @@ switch costume to [kit-button v]
 ```
 --- /task ---
 
-Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene, it should toggle between the two costumes 🔘
+Test to see if it has worked by clicking on the green flag. Now when you click the button in the scene, it should toggle between the two costumes 🔘
