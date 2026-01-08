@@ -3,7 +3,7 @@
 Create a pattern sprite to decorate your kit.
 
 --- task ---
-Create a new sprite and name it pattern.
+Create a new sprite and name it 'pattern'.
 --- /task ---
 
 --- task ---
@@ -13,7 +13,7 @@ Draw a shape for your pattern.
 --- /task ---
 
 --- task ---
-To create the pattern, copy and paste or draw a new shape and move to where you want it. Keep doing this until you have a pattern you like.
+To create the pattern, copy and paste or draw a new shape and move it to where you want it. Keep doing this until you have a pattern you like.
 
 ![Scratch editor - making pattern on shirt](images/pattern.gif)
 --- /task ---

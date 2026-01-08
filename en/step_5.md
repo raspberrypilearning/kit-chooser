@@ -20,7 +20,7 @@ Both buttons need to be different in some way.
 
 
 --- task ---
-To toggle between the buttons, make a new `variable`{:class="block3variables"} and name it button.
+To toggle between the buttons, make a new `variable`{:class="block3variables"} and name it 'button'.
 
 ![pop-up new variable name box in Scratch](images/make-variable.png)
 --- /task ---
@@ -37,7 +37,7 @@ Use the green `flag`{:class="block3events"} block and `set the button to pattern
 The button will change when we click on it. 
 
 --- task ---
-Use `when sprite clicked`{:class="block3events"} block.
+Use the `when sprite clicked`{:class="block3events"} block.
 
 Add an `if else`{:class="block3control"} block, this can be used to change what button `variable`{:class="block3variables"} is stored. Drop an `operator`{:class="block3operators"} into this.
 
@@ -53,11 +53,11 @@ set [button v] to [kit]
 ---/task ---
 
 --- task ---
-Change between cosutmes using the button `variable`{:class="block3variables"}.
+Change between costumes using the button `variable`{:class="block3variables"}.
 
 If the button is set to pattern then change costume to pattern, else change costume to kit.
 
-Put this inside `forever` {:class="block3control"} block, otherwise it will only switch once. 
+Put this inside the `forever` {:class="block3control"} block, otherwise it will only switch once. 
 
 ```blocks3
 when flag clicked
@@ -70,4 +70,4 @@ switch costume to [kit-button v]
 ```
 --- /task ---
 
-Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene it should toggle between the two costumes 🔘
+Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene, it should toggle between the two costumes 🔘
