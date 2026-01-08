@@ -5,7 +5,7 @@ In this step, you can change the kit or pattern colours for a fully customised k
 --- task ---
 In the kit sprite, add an `if`{:class="block3control"} block to the block you made earlier. This will switch costumes only if the button is set as kit.
 
-![kit sprite image](images/kit-sprite.png)
+![kit sprite image](images/kit-sprite.png){:width="300px"}
 
 ```blocks3
 when I receive [blue v]
@@ -19,7 +19,7 @@ Do this for each of the colours and test to make sure it works.
 --- task ---
 In the pattern sprite, add the `receive`{:class="block3events"} block for each colour. 
 
-![pattern sprite image](images/pattern-sprite.png)
+![pattern sprite image](images/pattern-sprite.png){:width="300px"}
 
 Add an `if`{:class="block3control"} block to this, and `switch costume`{:class="block3looks"} if the button is set as pattern. This is very similar to the blocks you made for the kit.
 

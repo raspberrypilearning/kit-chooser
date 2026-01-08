@@ -7,7 +7,7 @@ Make a new sprite.
 
 Draw button 1 and add text for the kit. You could use a t-shirt shape or a regular button shape.
 
-![kit srprite image](images/kit-button.png)
+![kit sprite image](images/kit-button.png)
 --- /task ---
 
 --- task ---
@@ -15,14 +15,14 @@ Make a new costume and draw button 2. Add text for the pattern.
 
 Both buttons need to be different in some way.
 
-![Scratch editor - making button sprites](images/button.png)
+![Scratch editor - making button sprites](images/button.png){:width="500px"}
 --- /task ---
 
 
 --- task ---
 To toggle between the buttons, make a new `variable`{:class="block3variables"} and name it 'button'.
 
-![pop-up new variable name box in Scratch](images/make-variable.png)
+![pop-up new variable name box in Scratch](images/make-variable.png){:width="450px"}
 --- /task ---
 
 --- task ---
@@ -70,4 +70,4 @@ switch costume to [kit-button v]
 ```
 --- /task ---
 
-Test to see if it has worked by cliking on the green flag. Now when you click the button in the scene, it should toggle between the two costumes 🔘
+Test to see if it has worked by clicking on the green flag. Now when you click the button in the scene, it should toggle between the two costumes 🔘
