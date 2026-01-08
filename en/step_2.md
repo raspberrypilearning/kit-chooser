@@ -9,14 +9,14 @@ Delete the cat sprite and create a sports kit. You could choose a sprite or draw
 
 You can search for "shirt".
 
-![Sprite selection screen in Scratch showing a shirt and a search for "shirt"](images/shirt.png)
+![Sprite selection screen in Scratch showing a shirt and a search for "shirt"](images/shirt.png){:width="400px"}
 --- /task ---
 
 
 --- task ---
 Change the design to how you want it, and add your first colour with the fill tool. Use the gradient fill to make the costume colours stand out.
 
-![Scratch costume editor showing a pink shirt with a gradient fill and the colour settings panel open](images/fill.png)
+![Scratch costume editor showing a pink shirt with a gradient fill and the colour settings panel open](images/fill.png){:width="500px"}
 --- /task ---
 
 --- task ---
@@ -28,5 +28,5 @@ Right click on the sprite to duplicate the costume for each colour you want to u
 --- task ---
 Fill each kit costume with a new colour and name them to match.
 
-![Scratch costume editor showing series of shirts with different colours](images/costumes.png)
+![Scratch costume editor showing series of shirts with different colours](images/costumes.png){:width="450px"}
 --- /task ---
