@@ -2,8 +2,8 @@ title: Kit chooser
 hero_image: images/banner.png
 description: default-project-template description
 version: 1
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2025-01-01"
 steps:
   - title: What you will make
