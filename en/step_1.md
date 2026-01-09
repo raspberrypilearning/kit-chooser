@@ -6,11 +6,6 @@ You will:
 - create your own style 👕 
 - make designs change colours 🎨
 - add a toggle button 🔘 
- 
- 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
 
 --- no-print ---
  
