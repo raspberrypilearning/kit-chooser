@@ -57,7 +57,7 @@ Change between costumes using the button `variable`{:class="block3variables"}.
 
 If the button is set to pattern then change costume to pattern, else change costume to kit.
 
-Put this inside the `forever` {:class="block3control"} block, otherwise it will only switch once. 
+Put this inside the `forever`{:class="block3control"} block, otherwise it will only switch once.
 
 ```blocks3
 when flag clicked
