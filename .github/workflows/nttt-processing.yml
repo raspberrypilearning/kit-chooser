@@ -9,6 +9,11 @@ on:
         required: false
         default: 'l10n_crowdin_translations'
         type: string
+      locale:
+        description: "Locale to process translations for (e.g. fr-FR). Leave blank to run all (except en)."
+        required: false
+        default: ''
+        type: string
 
 permissions: write-all
 
@@ -31,17 +36,41 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/raspberrypilearning/nttt.git
 
-      - name: Run NTTT on all language directories except 'en'
+      - name: Run NTTT (single locale or all except 'en')
         run: |
-          for lang_dir in */; do
-            if [[ -d "$lang_dir" && "$lang_dir" != "en/" ]]; then
-              lang_code=$(basename "$lang_dir")
-              echo "Processing language: $lang_code"
-              cd "$lang_dir"
-              printf "y\n" | nttt -Y YES || true
-              cd ..
+          set -euo pipefail
+
+          LOCALE="${{ inputs.locale }}"
+          if [[ -n "$LOCALE" ]]; then
+            # Single-locale mode
+            if [[ "$LOCALE" == "en" ]]; then
+              echo "Skipping 'en' locale by design."
+              exit 0
             fi
-          done
+
+            if [[ ! -d "$LOCALE" ]]; then
+              echo "Locale directory '$LOCALE' does not exist at repo root."
+              echo "Available locale dirs:"
+              ls -1d */ 2>/dev/null | sed 's#/##' || true
+              exit 1
+            fi
+
+            echo "Processing single locale: $LOCALE"
+            pushd "$LOCALE" >/dev/null
+            printf "y\n" | nttt -Y YES || true
+            popd >/dev/null
+          else
+            # All-locales mode (current behaviour)
+            for lang_dir in */; do
+              if [[ -d "$lang_dir" && "$lang_dir" != "en/" ]]; then
+                lang_code="$(basename "$lang_dir")"
+                echo "Processing language: $lang_code"
+                pushd "$lang_dir" >/dev/null
+                printf "y\n" | nttt -Y YES || true
+                popd >/dev/null
+              fi
+            done
+          fi
 
       - name: Add changes to branch
         run: |
