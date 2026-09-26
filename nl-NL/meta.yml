@@ -1,0 +1,21 @@
+title: Kies je eigen tenue
+hero_image: images/banner.png
+description: Ontwerp je eigen sporttenue voor je favoriete team
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-01-01"
+steps:
+  - title: Wat ga je maken
+  - title: Maak je eigen tenue
+    completion:
+    - engaged
+  - title: Maak kleurenkiezers
+  - title: Teken een patroon
+  - title: Voeg een knop toe
+  - title: Kies alle kleuren!
+    completion:
+    - internal
+    - external
+  - title: Uitdaging
+
