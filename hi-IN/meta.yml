@@ -1,0 +1,21 @@
+title: Kit chooser
+hero_image: images/banner.png
+description: Make a custom sports kit for your favourite team
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-01-01"
+steps:
+  - title: What you will make
+  - title: Create your kit
+    completion:
+    - engaged
+  - title: Make colour pickers
+  - title: Draw a pattern
+  - title: Add a button
+  - title: Choose all the colours!
+    completion:
+    - internal
+    - external
+  - title: Challenge
+
