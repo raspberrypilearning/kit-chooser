@@ -18,4 +18,5 @@ steps:
     - internal
     - external
   - title: Challenge
+    challenge: true
 
